@@ -1,0 +1,53 @@
+#header{
+
+    top: fixed;
+    margin-top: -20px;
+    line-height: 3;
+    
+}
+
+#copy_right_footer{
+
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(205, 151, 255);
+    color: white;
+    font-family: 'Parisienne', cursive;
+    line-height: 8;
+    text-align: center;
+    
+    }
+
+    body{
+
+        font-family: 'Parisienne', cursive;
+        background-size: cover;        
+
+    }
+
+
+    #song_name{
+
+font-size: 30px;
+margin-top: 30px;
+
+    }
+
+    canvas{
+
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+        }
+        
+        @keyframes example{
+        
+        from{box-shadow: 12px 12px 90px rgb(0, 187, 255);}
+        to{box-shadow: 12px 12px 90px rgb(0, 255, 94);}
+        to{box-shadow: 12px 12px 90px rgb(255, 247, 0);}
+        to{box-shadow: 12px 12px 90px rgb(255, 34, 0);}
+        to{box-shadow: 12px 12px 90px rgb(145, 27, 249);}
+        
+        }
